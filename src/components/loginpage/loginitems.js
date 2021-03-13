@@ -6,7 +6,7 @@ class Loginitems extends Component {
     render() {
         return (
             <div id="">
-                <form>
+                <form className="lg-form">
                     <div className="loginitem">
                         <input className="ip-box" type="text" placeholder="Username" />
                         <input className="ip-box" type="password" placeholder="Password" />

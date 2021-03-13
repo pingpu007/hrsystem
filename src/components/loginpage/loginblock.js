@@ -12,7 +12,7 @@ class Loginblock extends Component {
                         <img className="lg-logo" src={timepic} alt=" " />
                     </div>
                     <div style={{fontWeight:"bold",display:"flex",paddingBottom:"2%"}}>เข้าสู่ระบบ 
-                        <div style={{fontWeight:"normal",fontSize:"10px",paddingTop:"2.5%"}}>(Authentical via LDAP)</div>
+                        <div style={{fontWeight:"normal",fontSize:"10px",paddingTop:"1%",marginLeft:"2%"}}>(Authentical via LDAP)</div>
                     </div>
                     <div>
                         <Loginitems />
