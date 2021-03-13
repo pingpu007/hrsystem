@@ -8,8 +8,8 @@ class Loginitems extends Component {
             <div id="">
                 <form>
                     <div className="loginitem">
-                        <input type="text" placeholder="Username" />
-                        <input type="password" placeholder="Password" />
+                        <input className="ip-box" type="text" placeholder="Username" />
+                        <input className="ip-box" type="password" placeholder="Password" />
                     </div>
                     <input className="submit-btn" type="submit" value="เข้าสู่ระบบ" />
                 </form>
