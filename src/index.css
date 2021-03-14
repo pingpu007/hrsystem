@@ -20,7 +20,7 @@ body {
   height:calc(100px + 100vh);
 }
 
-.menuitem{
+.fp-menuitem{
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: 200%;
@@ -35,7 +35,7 @@ body {
   width: 30%;
 }
 
-.timeattendance{
+.fp-timeattendance{
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -54,7 +54,7 @@ body {
   font-weight: bold;
 }
 
-.Login{
+.fp-Login{
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -73,7 +73,7 @@ body {
   font-weight: bold;
 }
 
-.e-maillogin{
+.fp-e-maillogin{
   padding-top: 5px;
   font-weight:normal;
 }
@@ -87,7 +87,7 @@ body {
   right: 0;
 }
 
-.timeattend-out{
+.fp-timeattend-out{
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 60% 10% 60%;
@@ -98,14 +98,14 @@ body {
   font-weight: normal;
 }
 
-.time-color{
+.fp-time-cl{
   padding: 1% 8% 1% 8%;
   color: #F5F5F5;
   border-radius: 10px;
   background-color: #0078D4;
 }
 
-.time-no-color{
+.fp-time-no-cl{
   padding: 1% 8% 1% 8%;
   color: #000;
   border-radius: 10px;
@@ -130,19 +130,20 @@ body {
 }
 
 .lg-logo{
-  margin: 0 0 0 50%;
-  width: 50%;
+  width: 100%;
+  
 }
 
 .lg-logo-line{
   display: grid;
-  grid-template-columns: 30% 30%;
+  grid-template-columns: 20% 40%;
+  grid-template-rows: 100%;
   grid-gap: 40%;
 }
 
 .loginitem{
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 99%;
   grid-template-rows: 45%;
   grid-gap: 20%;
   background: rgba(255, 255, 255, 1);
@@ -167,9 +168,37 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px 0px 83%;
+  float: right;
   color:#FFFFFF;
   background: rgba(0, 120, 212, 1);
+}
+
+.tad-block{
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 500px;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+  grid-gap: 10px;
+  font-size: 100%;
+}
+
+.tad-item{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  background-color: #FFFFFF;
+  width: 390px;
+  height: 390px;
+  padding: 10% 10% 10% 10%;
+  margin: 1% 1% 1% 1%;
+  color: #000;
+  font-style: normal;
+  font-weight: bold;
 }
 
 
@@ -183,7 +212,7 @@ body {
     width: 70%;
   }
 
-  .menuitem{
+  .fp-menuitem{
     display: grid;
     grid-auto-flow: column;
     grid-template-rows: 50% 50%;
@@ -193,13 +222,13 @@ body {
     font-size: 100%;
   }
 
-  .timeattendance {
+  .fp-timeattendance {
     padding: 10% 20% 10% 20%;
     width: 60%;
     height: 85%;
   }
 
-  .timeattend-out{
+  .fp-timeattend-out{
     padding-bottom: 15%;
     font-size: 80%;
     grid-template-rows: 100% 100% 100% ;
@@ -209,7 +238,7 @@ body {
     height: 7%;
   }
 
-  .Login{
+  .fp-Login{
     padding: 10% 20% 10% 20%;
     width: 60%;
     height: 85%;
@@ -243,9 +272,19 @@ body {
   }
 
   .submit-btn{
-    margin: 10% 0px 0px 65%;
+    margin: 10% 0px 0px 60%;
   }
 
+  .tad-block{
+    grid-template-columns: 250px;
+    grid-template-rows: 250px 250px;
+  }
+
+  .tad-item{
+    width: 195px;
+    height: 192px;
+  }
+  
 }
 
 code {

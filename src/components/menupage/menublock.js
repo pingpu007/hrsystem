@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import timepic from '../firstpage/figerPrint.svg'
 import { Link } from 'react-router-dom'
+import Menuitems from './menuitems.js'
 
-import Loginitems from './loginitems'
-class Loginblock extends Component {
+class Menublock extends Component {
     render() {
         return (
             <div className="login-border">
@@ -18,7 +18,7 @@ class Loginblock extends Component {
                         <div style={{fontWeight:"normal",fontSize:"10px",paddingTop:"1%",marginLeft:"2%"}}>(Authentical via LDAP)</div>
                     </div>
                     <div>
-                        <Loginitems />
+                        <Menuitems />
                     </div>
                 </div>
             </div>
@@ -26,4 +26,4 @@ class Loginblock extends Component {
     }
 }
 
-export default Loginblock
+export default Menublock

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Menublock from './menublock.js';
+import Fpmenublock from './fpmenublock.js';
 
 
 class Firstpage extends Component {
@@ -7,7 +7,7 @@ class Firstpage extends Component {
         return(
             <div className=" ">
                 <div className=" ">
-                    <Menublock />
+                    <Fpmenublock />
                 </div>
             </div>
         )

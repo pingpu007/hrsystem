@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 
-class Loginitems extends Component {
+class Menuitems extends Component {
     render() {
         return (
             <div id="">
@@ -17,4 +17,4 @@ class Loginitems extends Component {
     }
 }
 
-export default Loginitems
+export default Menuitems

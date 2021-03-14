@@ -7,8 +7,8 @@ class Timeattenditems extends Component {
         return (
             <div id={this.props.item}>
                 <div className={this.props.item}>
-                    <div className={this.props.text} >Time Attendance</div>
-                    <img className="f-logo" src={this.props.image} alt={this.props.alt} />
+                    <div className="" >{this.props.text}</div>
+                    <img className="" src={this.props.image} alt={this.props.alt} />
                 </div>
             </div>
 
