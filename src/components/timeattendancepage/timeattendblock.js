@@ -10,8 +10,8 @@ class Timeattendblock extends Component {
                 <h1 className="titleHeaderBold">Time attendance</h1>
                 <h1 className="titleHeader">เข้างาน</h1>
                 <div className="tad-block">
-                    <Timeattenditems image={timepic} alt="fingerprint" text="กรุณาแสกนเข้างาน" item="tad-item"/>
-                    <Timeattenditems image={timepic} alt="fingerprint" text="รูปภาพถ่าย" item="tad-item"/>
+                    <Timeattenditems image={timepic} alt="fingerprint" text="กรุณาแสกนเข้างาน" item="tad-item" tolink="/"/>
+                    <Timeattenditems image={timepic} alt="fingerprint" text="รูปภาพถ่าย" item="tad-item" tolink="/"/>
                 </div>
             </div>
         )

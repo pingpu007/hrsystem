@@ -8,7 +8,9 @@ class Timeattenditems extends Component {
             <div id={this.props.item}>
                 <div className={this.props.item}>
                     <div className="" >{this.props.text}</div>
-                    <img className="" src={this.props.image} alt={this.props.alt} />
+                    <Link to={this.props.tolink}>
+                        <img className="" src={this.props.image} alt={this.props.alt} />
+                    </Link>
                 </div>
             </div>
 

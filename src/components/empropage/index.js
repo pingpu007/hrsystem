@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import Menublock from './menublock.js'
+import Emproblock from './emproblock.js'
 import Navbars from '../Navbars'
 
-class Menupage extends Component {
+class Empropage extends Component {
     render(){
         return(
             <>
             <Navbars />
-            <Menublock />
+            <Emproblock />
             </>
         )
     }
 }
 
-export default Menupage;
+export default Empropage;

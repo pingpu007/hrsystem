@@ -10,7 +10,7 @@ class Loginblock extends Component {
                 <div className="login-block">
                     <div className="lg-logo-line">
                         <h4 className="lg-kiosk-tx">HR Kiosk</h4>
-                        <Link style={{width:"50%",marginLeft:"50%"}} to="/">
+                        <Link style={{width:"50%",marginLeft:"50%"}} to="menu">
                             <img className="lg-logo" src={timepic} alt=" " />
                         </Link>
                     </div>

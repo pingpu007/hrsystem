@@ -1,25 +1,38 @@
 import React, { Component } from 'react'
-import timepic from '../firstpage/figerPrint.svg'
-import { Link } from 'react-router-dom'
 import Menuitems from './menuitems.js'
+import kioskimg from './kiosk.svg'
+
 
 class Menublock extends Component {
     render() {
         return (
-            <div className="login-border">
-                <div className="login-block">
-                    <div className="lg-logo-line">
-                        <h4 className="lg-kiosk-tx">HR Kiosk</h4>
-                        <Link style={{width:"50%",marginLeft:"50%"}} to="/">
-                            <img className="lg-logo" src={timepic} alt=" " />
-                        </Link>
-                    </div>
-                    <div style={{fontWeight:"bold",display:"flex",paddingBottom:"2%"}}>เข้าสู่ระบบ 
-                        <div style={{fontWeight:"normal",fontSize:"10px",paddingTop:"1%",marginLeft:"2%"}}>(Authentical via LDAP)</div>
+            <div className="menu-block" >
+                <div className="menu-topic" >
+                    <div style={{fontWeight:'bold'}}>
+                        Topic
                     </div>
                     <div>
-                        <Menuitems />
+                        หัวข้อ
                     </div>
+                </div>
+                <div className="menu-content">
+                    <div className="menu-item">
+                        <div className="menu-list">
+                            <Menuitems topic="Employee Profile" detail="ข้อมูลส่วนตัวพนักงาน" tolink="empropage"/>
+                            <Menuitems topic="Time off Request" detail="ใบลางาน" tolink=""/>
+                            <Menuitems topic="Time Attendance" detail="เวลาเข้างาน" tolink=""/>
+                            <Menuitems topic="Event Calendar" detail="ปฏิทินบริษัท" tolink=""/>
+                            <Menuitems topic="Approval" detail="การอนุมัติ" tolink=""/>
+                            <Menuitems topic="Report" detail="รายงาน" tolink=""/>
+                        </div>
+                        <div className="survey-block">
+                            <div>
+                                <div>Survey</div>
+                                <div>- สำรวจความพึงพอใจ</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img style={{width:"450px"}} src={kioskimg} alt="kioskimg" />
                 </div>
             </div>
         )

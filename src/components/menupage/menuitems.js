@@ -1,18 +1,17 @@
 import React, { Component } from 'react'
-
+import { Link } from 'react-router-dom'
 
 class Menuitems extends Component {
     render() {
         return (
-            <div id="">
-                <form className="lg-form">
-                    <div className="loginitem">
-                        <input className="ip-box" type="text" placeholder="Username" />
-                        <input className="ip-box" type="password" placeholder="Password" />
+            <Link className="menu-text" to={this.props.tolink} >
+                    <div className="fw-bold">
+                        {this.props.topic}
                     </div>
-                    <input className="submit-btn" type="submit" value="เข้าสู่ระบบ" />
-                </form>
-            </div>
+                    <div className=" ">
+                        {this.props.detail}
+                    </div>
+            </Link>
         )
     }
 }
