@@ -6,6 +6,7 @@ import Timeattendance from './components/timeattendancepage'
 import Loginpage from './components/loginpage'
 import Menupage from './components/menupage'
 import Empropage from './components/empropage'
+import Timeoffpage from './components/timeoffpage'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/login" render={(props) => <Loginpage {...props} />}></Route>
           <Route exact path="/menu" render={(props) => <Menupage {...props} />}></Route>
           <Route exact path="/empropage" render={(props) => <Empropage {...props} />}></Route>
+          <Route exact path="/timeoffpage" render={(props) => <Timeoffpage {...props} />}></Route>
         </Switch>
       </Router>
     </div>
