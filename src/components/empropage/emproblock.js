@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import Emproitems from './emproitems.js'
 import pslphoto from './photo.svg'
 
-
-
 class Emproblock extends Component {
     render() {
         return (

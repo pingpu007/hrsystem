@@ -6,7 +6,7 @@ class Menublock extends Component {
     render() {
         return (
             <div className="navbar-block">
-                <Navbaritems image={innotechlg} alt="innotechlogo" tolink="mennu" />
+                <Navbaritems image={innotechlg} alt="innotechlogo" tolink="menu" />
             </div>
         )
     }

@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import Timeoffblock from './timeoffblock'
+import Attendhisblock from './attendhisblock'
 import Navbars from '../Navbars'
 
-class Timeoffpage extends Component {
+class Attendhispage extends Component {
     render(){
         return(
             <>
             <Navbars />
-            <Timeoffblock />
+            <Attendhisblock />
             </>
         )
     }
 }
 
-export default Timeoffpage;
+export default Attendhispage;

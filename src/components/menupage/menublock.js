@@ -20,7 +20,7 @@ class Menublock extends Component {
                         <div className="menu-list">
                             <Menuitems topic="Employee Profile" detail="ข้อมูลส่วนตัวพนักงาน" tolink="empropage"/>
                             <Menuitems topic="Time off Request" detail="ใบลางาน" tolink="timeoffpage"/>
-                            <Menuitems topic="Time Attendance" detail="เวลาเข้างาน" tolink=""/>
+                            <Menuitems topic="Time Attendance" detail="เวลาเข้างาน" tolink="attendpage"/>
                             <Menuitems topic="Event Calendar" detail="ปฏิทินบริษัท" tolink=""/>
                             <Menuitems topic="Approval" detail="การอนุมัติ" tolink=""/>
                             <Menuitems topic="Report" detail="รายงาน" tolink=""/>

@@ -275,6 +275,31 @@ body {
   background-color: #FFFFFF;
 }
 
+.pf-box-with-dp-box{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 30% 40%;
+  grid-gap: 10px;
+}
+
+.tof-btn{
+  font-family: Segoe UI;
+  border: none;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  float: right;
+  color: #FFFFFF;
+  background: rgba(0, 120, 212, 1);
+  width: 80%;
+  border-radius: 2px;
+  padding: 6px 20px;
+}
+
+.tof-btn:hover{
+  padding: 7px 21px;
+}
+
 .pf-box{
   display: grid;
   grid-template-columns: auto auto;
@@ -322,6 +347,65 @@ body {
   border: 1px solid #8A8886;
   box-sizing: border-box;
   border-radius: 2px;
+}
+
+.tof-block{
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows: auto ;
+  grid-gap: 20px;
+  padding: 1% 2% 2% 2%;
+  background-color: #FFFFFF;
+}
+
+.tof-dat{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.label-imginput:hover{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.tof-bx-name >input{
+  width: 100%;
+  height: 100% !important;
+  padding: 6px 8px;
+  border: 1px solid #8A8886;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #201F1E;
+}
+
+.attend-block{
+  display: grid;
+  background-color: #FFFFFF;
+  padding: 10px 30px 10px 30px;
+}
+
+.attend-topic{
+  padding-bottom: 10px;
+}
+
+.attend-menu{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.attend-ls-topic{
+
+}
+
+.attend-items{
+
 }
 
 @media (max-width: 1200px) {
