@@ -7,7 +7,9 @@ import Loginpage from './components/loginpage'
 import Menupage from './components/menupage'
 import Empropage from './components/empropage'
 import Timeoffpage from './components/timeoffpage'
-import Attendhispage from './components/attendpage'
+import Attendhisinpage from './components/attendpage'
+import Attendhisoutpage from './components/attendpageout'
+import Calendarpage from './components/calendar'
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
           <Route exact path="/menu" render={(props) => <Menupage {...props} />}></Route>
           <Route exact path="/empropage" render={(props) => <Empropage {...props} />}></Route>
           <Route exact path="/timeoffpage" render={(props) => <Timeoffpage {...props} />}></Route>
-          <Route exact path="/attendpage" render={(props) => <Attendhispage {...props} />}></Route>
+          <Route exact path="/attendinpage" render={(props) => <Attendhisinpage {...props} />}></Route>
+          <Route exact path="/attendoutpage" render={(props) => <Attendhisoutpage {...props} />}></Route>
+          <Route exact path="/calendarpage" render={(props) => <Calendarpage {...props} />}></Route>
         </Switch>
       </Router>
     </div>

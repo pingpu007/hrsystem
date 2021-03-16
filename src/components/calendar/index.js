@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import Attendhisinblock from './attendhisinblock'
+import Calendarblock from './calendarblock'
 import Navbars from '../Navbars'
 
-class Attendhisinpage extends Component {
+class Calendarpage extends Component {
     render(){
         return(
             <>
             <Navbars />
-            <Attendhisinblock />
+            <Calendarblock />
             </>
         )
     }
 }
 
-export default Attendhisinpage;
+export default Calendarpage;

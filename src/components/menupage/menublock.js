@@ -20,8 +20,8 @@ class Menublock extends Component {
                         <div className="menu-list">
                             <Menuitems topic="Employee Profile" detail="ข้อมูลส่วนตัวพนักงาน" tolink="empropage"/>
                             <Menuitems topic="Time off Request" detail="ใบลางาน" tolink="timeoffpage"/>
-                            <Menuitems topic="Time Attendance" detail="เวลาเข้างาน" tolink="attendpage"/>
-                            <Menuitems topic="Event Calendar" detail="ปฏิทินบริษัท" tolink=""/>
+                            <Menuitems topic="Time Attendance" detail="เวลาเข้างาน" tolink="attendinpage"/>
+                            <Menuitems topic="Event Calendar" detail="ปฏิทินบริษัท" tolink="calendarpage"/>
                             <Menuitems topic="Approval" detail="การอนุมัติ" tolink=""/>
                             <Menuitems topic="Report" detail="รายงาน" tolink=""/>
                         </div>
@@ -32,7 +32,9 @@ class Menublock extends Component {
                             </div>
                         </div>
                     </div>
-                    <img style={{width:"450px"}} src={kioskimg} alt="kioskimg" />
+                    <div  className="menu-img">
+                        <img style={{width:"450px"}} src={kioskimg} alt="kioskimg" />
+                    </div>
                 </div>
             </div>
         )

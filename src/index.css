@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #EBEBEB;
-  
 }
 
 .fw-bold{
@@ -266,6 +265,10 @@ body {
   background-color: #EBEBEB;
 }
 
+.menu-img{
+
+}
+
 .emplo-block{
   display: grid;
   grid-template-columns: auto auto ;
@@ -385,7 +388,7 @@ body {
 .attend-block{
   display: grid;
   background-color: #FFFFFF;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 30px 20px 30px;
 }
 
 .attend-topic{
@@ -395,17 +398,76 @@ body {
 .attend-menu{
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  grid-template-rows: 33px;
   text-align: center;
 }
 
-.attend-ls-topic{
+.attend-link-ln{
+  text-decoration: none;
+  color:#000;
+  border-bottom: 3px solid #0078D4;
+}
 
+.attend-link-ln:hover{
+  background-color: #EBEBEB;
+}
+
+.attend-link-n-ln{
+  text-decoration: none;
+  color:#000;
+}
+
+.attend-link-n-ln:hover{
+  background-color: #EBEBEB;
+}
+
+.attend-ls-topic{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto 153px 153px 153px 153px;
+  grid-template-rows: 33px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.attend-ls-topic-out{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto 153px 153px 153px 153px 153px;
+  grid-template-rows: 33px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .attend-items{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto 153px 153px 153px 153px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
+.attend-items-out{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto 153px 153px 153px 153px 153px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.attend-items-time{
+  display: grid;
+  grid-template-rows: auto auto;
 }
 
 @media (max-width: 1200px) {
@@ -517,6 +579,15 @@ body {
   .menu-item{
     grid-template-columns: auto;
     grid-template-rows: auto;
+  }
+
+  .menu-img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .menu-img>img{
+    width: 97% !important;
   }
 
 }
